@@ -3,6 +3,40 @@
 	padding: 0;
 }
 
+/* Nav Styles */
+
+nav {
+	background: url("../imgs/panopic.png")center center no-repeat;
+	background-size: cover;
+	max-width: 100%;
+	height: 220px;
+}
+ul {
+	list-style: none;
+	display:flex;
+	justify-content:center;
+}
+nav li{
+	padding: 10px;
+}
+
+/* Body Styles */
+
+body {
+	color: #4e4c4f;
+	font-family: 'Montserrat', 'Ariel', sans-serif;
+	text-align: center;
+	padding: 10px;
+	background-color: #dabee2;
+}
+.bio {
+	text-decoration: none;
+}
+
+.bio img {
+	display: inline;
+	border-radius: 50%;
+}
 
 
 
